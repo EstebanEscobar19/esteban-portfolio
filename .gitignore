@@ -1,0 +1,23 @@
+﻿# Node modules
+node_modules/
+
+# Build output
+.next/
+dist/
+
+# Environment files
+.env
+.env.local
+
+# Editor settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Optional additional ignores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
