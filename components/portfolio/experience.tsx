@@ -7,6 +7,17 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
+    title: "Desarrollador / Analista de Datos Junior",
+    company: "Sithred",
+    location: "Remoto",
+    period: "Octubre 2025 - Marzo 2026",
+    duration: "5 meses",
+    description:
+      "Participé en proyectos de software apoyando actividades de desarrollo, análisis de datos, limpieza y transformación de información, además de la creación de dashboards en Power BI. También apoyé funcionalidades de desarrollo con Java y React, además del control de versiones mediante Git y GitHub.",
+    technologies: ["Power BI", "Power Query", "Java", "React", "Git", "GitHub"],
+    type: "Colaborador por proyectos",
+  },
+  {
     title: "Desarrollador de Software",
     company: "Universidad Surcolombiana",
     location: "Neiva, Huila",

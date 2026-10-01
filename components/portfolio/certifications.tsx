@@ -34,6 +34,20 @@ const certifications = [
     type: "Certificación",
     icon: Award,
   },
+  {
+    title: "Fundamentos de Ingeniero IA con Python",
+    issuer: "Codigofacilito",
+    date: "2026",
+    type: "Certificación",
+    icon: Award,
+  },
+  {
+    title: "Analítica del Talento Humano mediante Power BI",
+    issuer: "Universidad Surcolombiana",
+    date: "2026",
+    type: "Certificación",
+    icon: Award,
+  },
 ];
 
 export function Certifications() {

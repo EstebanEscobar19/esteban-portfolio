@@ -17,7 +17,7 @@ export function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/"
+              href="https://github.com/EstebanEscobar19"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -25,8 +25,9 @@ export function Footer() {
             >
               <Github size={20} />
             </a>
+
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/esteban-escobar-je/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -34,6 +35,7 @@ export function Footer() {
             >
               <Linkedin size={20} />
             </a>
+
             <a
               href="mailto:juanes_escobar@hotmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"

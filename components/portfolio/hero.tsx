@@ -134,28 +134,13 @@ export function Hero() {
               />
             </motion.div>
 
-            {/* Initials - static, not rotating */}
-            <div className="absolute inset-0 w-48 h-48 sm:w-64 sm:h-64 flex items-center justify-center">
-              <motion.span
-                className="text-6xl sm:text-7xl font-bold text-primary drop-shadow-lg"
-                style={{
-                  textShadow: "0 0 30px rgba(56, 189, 248, 0.4)",
-                }}
-                animate={{
-                  textShadow: [
-                    "0 0 20px rgba(56, 189, 248, 0.3)",
-                    "0 0 40px rgba(56, 189, 248, 0.5)",
-                    "0 0 20px rgba(56, 189, 248, 0.3)",
-                  ],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
-              >
-                JE
-              </motion.span>
+            {/* Profile image */}
+            <div className="absolute inset-0 w-48 h-48 sm:w-64 sm:h-64 flex items-center justify-center overflow-hidden rounded-full">
+              <img
+                src="/profile.jpg"
+                alt="Juan Esteban Escobar Portilla"
+                className="h-full w-full object-cover object-[50%_10%] scale-105 -translate-x-1"
+              />
             </div>
 
             {/* Floating particles around the circle */}
@@ -202,14 +187,16 @@ export function Hero() {
               className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 mb-8 leading-relaxed space-y-4"
             >
               <p className="text-pretty">
-                Ingeniero de Software, con interés en el desarrollo web, 
-                bases de datos y construcción de aplicaciones funcionales orientadas a 
-                resolver necesidades reales.
+                Ingeniero de Software con experiencia en desarrollo de aplicaciones,
+                análisis y visualización de datos, orientado a la construcción de
+                soluciones funcionales para necesidades reales.
               </p>
+
               <p className="text-pretty">
-                Durante mi formación académica y experiencia práctica he trabajado con 
-                tecnologías como React, Python, Node.js, PostgreSQL y herramientas de 
-                desarrollo colaborativo.
+                He trabajado con tecnologías como React, Python, Java, Node.js,
+                PostgreSQL, Power BI y Power Query, participando en actividades de
+                desarrollo frontend y backend, manejo de bases de datos, transformación
+                de información y creación de dashboards.
               </p>
             </motion.div>
 

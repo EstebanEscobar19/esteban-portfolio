@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Github, Droplets, Calendar, Package } from "lucide-react";
+import { Github, Droplets, Calendar, Package, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -36,6 +36,16 @@ const projects = [
     category: "Proyecto Web",
     github: "https://github.com/duvancardozo18/EventMol-frontend",
     icon: Calendar,
+  },
+  {
+    title: "Análisis de Reservas Hoteleras",
+    subtitle: "Dashboard de Reservas y Patrones de Cancelación",
+    description:
+      "Proyecto desarrollado en Power BI para analizar el comportamiento de reservas hoteleras, incluyendo limpieza y transformación de datos, modelado dimensional, medidas DAX y dashboards.",
+    technologies: ["Power BI", "Power Query", "DAX", "Modelado de Datos"],
+    category: "Proyecto de Análisis de Datos",
+    github: "https://github.com/EstebanEscobar19/powerbi-hotel-reservations-analysis",
+    icon: BarChart3,
   },
 ];
 
@@ -110,7 +120,7 @@ export function Projects() {
                         rel="noopener noreferrer"
                       >
                         <Github size={16} />
-                        Código
+                        {project.category === "Proyecto de Análisis de Datos" ? "Proyecto" : "Código"}
                       </a>
                     </Button>
                   </div>
